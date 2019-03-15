@@ -1,0 +1,13 @@
+.rise-enabled pre {
+    padding: 0.5em 1em;
+}
+
+.rise-enabled table {
+    font-size: 0.5em;
+}
+
+.rise-enabled section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
