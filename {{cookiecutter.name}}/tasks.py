@@ -7,7 +7,6 @@ def venv(c, force=False):
     """Create a virtual environment for Python."""
     if Path("venv").exists() and not force:
         return None
-
     c.run("python3 -m venv venv --clear")
     c.run("venv/bin/pip install --requirement requirements.txt")
     c.run("venv/bin/jupyter nbextension install rise --user --py")
