@@ -1,1 +1,1 @@
-# cookiecutter-slides
+# cookiecutter-rise
